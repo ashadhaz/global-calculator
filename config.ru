@@ -5,7 +5,7 @@ Bundler.setup
 
 # The server can run in two modes, 'production' and 'development'
 # the mode is set in the RACK_ENV or RAILS_ENV environment variables
-ENV['RACK_ENV'] = ENV['RAILS_ENV'] if ENV['RAILS_ENV']
+ENV['RACK_ENV'] = 'production'
 
 # The server
 require './hi-4-x.rb'
